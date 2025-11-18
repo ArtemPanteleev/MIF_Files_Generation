@@ -1,0 +1,51 @@
+.DS_Store
+Thumbs.db
+
+# Qt / qmake build artifacts
+*.o
+*.obj
+*.dll
+*.exe
+*.pdb
+*.ilk
+*.qmake.stash
+*.qmake.cache
+*.user
+*.pro.user
+*.pro.user.*
+*.autosave
+
+# Qt generated sources
+moc_*.cpp
+qrc_*.cpp
+ui_*.h
+
+# Translation and help caches
+*.qm
+*.qhc
+*.qch
+
+# Build directories
+build-*/
+**/build-*/
+
+# CMake / Ninja / Qbs leftovers
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+*.ninja
+.ninja_deps
+.ninja_log
+
+# Qt Creator / IDE state
+.qtc_clangd
+.idea/
+.vscode/
+.vs/
+
+# Windows cruft
+Desktop.ini
+$RECYCLE.BIN/
+
+
